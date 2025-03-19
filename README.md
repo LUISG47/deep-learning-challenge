@@ -1,4 +1,4 @@
-# deep-learning-challenge
+# Deep-learning-challenge
 
 ## Overview of the analysis: 
 
@@ -27,11 +27,16 @@ First the csv looks like this:
 ![Screenshot 2025-03-18 at 10 15 00 p m](https://github.com/user-attachments/assets/921b09ad-fadb-41d7-a954-70451ab26168)
 
 
-What variable(s) are the target(s) for your model?
-The target variable of the model is **IS_SUCCESSFUL**—Was the money used effectively
+_What variable(s) are the target(s) for your model?_
 
-What variable(s) are the features for your model?
+The target variable of the model is:
+
+**IS_SUCCESSFUL**—Was the money used effectively
+
+_What variable(s) are the features for your model?_
+
 The features variables of the model are the other columns such as:
+
 + **APPLICATION_TYPE**—Alphabet Soup application type
 + **AFFILIATION**—Affiliated sector of industry
 + **CLASSIFICATION**—Government organization classification
@@ -43,7 +48,7 @@ The features variables of the model are the other columns such as:
 + **ASK_AMT**—Funding amount requested
 
 
-What variable(s) should be removed from the input data because they are neither targets nor features?
+_What variable(s) should be removed from the input data because they are neither targets nor features?_
 
 The variables that should be removed are the 
 + **EIN and NAME**—Identification columns
@@ -52,11 +57,11 @@ As they are not directly correlated to the success outcome desired
 
 __Compiling, Training, and Evaluating the Model__
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+_How many neurons, layers, and activation functions did you select for your neural network model, and why?_
 
-Were you able to achieve the target model performance?
+_Were you able to achieve the target model performance?_
 
-What steps did you take in your attempts to increase model performance?
+_What steps did you take in your attempts to increase model performance?_
 
 Summary: 
 
