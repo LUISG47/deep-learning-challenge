@@ -107,8 +107,6 @@ For this attempt I changued some parameters:
 
 I also used 150 EPOCHS on this 2nd attempt.
 
-<img width="751" alt="Screenshot 2025-03-19 at 10 01 00 p m" src="https://github.com/user-attachments/assets/6fcd8d5d-0cc6-44c0-81a1-c1dcb2f27ca5" />
-
 
 The result didn't got better as i gota 72.59 accuracy adding 1 more layer to the model:
 
@@ -134,6 +132,9 @@ For this attempt we added 1 hidden layer:
 I also used 200 EPOCHS on this 2nd attempt. 
 <img width="909" alt="Screenshot 2025-03-19 at 10 26 53 p m" src="https://github.com/user-attachments/assets/3e340bbf-e103-4005-848c-0ae79d216e7f" />
 
+In this case the model didn't had a better accuracy either as it had a result of 72.57% accuracy
+
+<img width="697" alt="Screenshot 2025-03-19 at 10 37 49 p m" src="https://github.com/user-attachments/assets/dfe7d790-5731-4f1b-ad44-29f03f00bf3e" />
 
 
 
@@ -141,7 +142,8 @@ I also used 200 EPOCHS on this 2nd attempt.
 
 _Results between the 3 models_
 
-
+Based on the results obtained, we can conclude that, for this specific model, adding more hidden layers and neurons does not improve the accuracy of the result, so it would be necessary to add other models to achieve the minimum accuracy of 75% required by the client.
+Furthermore, if this were a model requested by the client, the best model would be the first one with a 72.65% accuracy, as it offers the highest accuracy and consumes fewer resources than models 2 and 3.
 
 _Other Models to consider_
 
