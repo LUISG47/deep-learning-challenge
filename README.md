@@ -89,11 +89,62 @@ With this first attempt we didn't make the target model performance as we obtain
 
 So we will try 2 more attempts in order to try to get a better performance number
 
-
 _What steps did you take in your attempts to increase model performance?_
+
+### 2ND ATTTEMPT
+
+For this attempt I changued some parameters:
+
+<img width="940" alt="Screenshot 2025-03-19 at 9 57 28 p m" src="https://github.com/user-attachments/assets/dcdf51a4-ab14-4b74-8d3e-7778a3a49fc6" />
+
++ **First Hidden Layer**: 120 neurons.
+
++ **Second Hidden Layer**: 80 neurons.
+  
++ + **Third Hidden Layer**: 40 neurons.
+
++ **Output Layer**: 1 neuron (for binary classification).
+
+I also used 150 EPOCHS on this 2nd attempt.
+
+<img width="751" alt="Screenshot 2025-03-19 at 10 01 00 p m" src="https://github.com/user-attachments/assets/6fcd8d5d-0cc6-44c0-81a1-c1dcb2f27ca5" />
+
+
+The result didn't got better as i gota 72.59 accuracy adding 1 more layer to the model:
+
+<img width="751" alt="Screenshot 2025-03-19 at 10 01 00 p m" src="https://github.com/user-attachments/assets/0f471cd5-39a0-4151-805a-7eec60184045" />
+
+
+### 3RD ATTTEMPT
 
 Summary: 
 
+For this attempt we added 1 hidden layer:
+
++ **First Hidden Layer**: 180 neurons.
+
++ **Second Hidden Layer**: 120 neurons.
+  
++ **Third Hidden Layer**: 80 neurons.
+ 
++ **Fourth Hidden Layer**: 40 neurons.
+
++ **Output Layer**: 1 neuron (for binary classification).
+
+I also used 200 EPOCHS on this 2nd attempt. 
+<img width="909" alt="Screenshot 2025-03-19 at 10 26 53 p m" src="https://github.com/user-attachments/assets/3e340bbf-e103-4005-848c-0ae79d216e7f" />
 
 
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+
+## Summary
+
+_Results between the 3 models_
+
+
+
+_Other Models to consider_
+
+One possible alternative model could be the Linear binary classifier as this model has the objective is to categorize input data into one of two distinct classes and may be useful for the binary result we want to predict.
+
+Another promising approach for addressing this classification problem is to utilize a Support Vector Machine (SVM). The SVM model is particularly effective in scenarios where the data is not linearly separable, as it works by finding the optimal hyperplane that best divides the data into distinct classes. For this project, implementing an SVM could provide a robust alternative to neural networks, especially when dealing with smaller datasets or when interpretability is a key concern
