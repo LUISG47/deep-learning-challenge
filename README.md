@@ -55,11 +55,36 @@ The variables that should be removed are the
 
 As they are not directly correlated to the success outcome desired
 
-__Compiling, Training, and Evaluating the Model__
+### Compiling, Training, and Evaluating the Model 
 
 _How many neurons, layers, and activation functions did you select for your neural network model, and why?_
 
+In the first attempt the following architecture was followed:
+
+**First Hidden Layer**: 80 neurons.
+**Second Hidden Layer**: 30 neurons.
+**Output Layer**: 1 neuron (for binary classification).
+
+On the activation functions we have this:
+
+**Hidden Layers**: Use the **ReLU (Rectified Linear Unit)** activation function
+**Output Layer**: Uses the **Sigmoid** activation function wich is suitable for binary classifications
+**100 epochs** were chosen to allow adequate training time for the network to converge-
+
+<img width="1013" alt="Screenshot 2025-03-19 at 6 41 08 p m" src="https://github.com/user-attachments/assets/e5384c10-57db-4b85-a875-1255060db9e6" />
+
+<img width="769" alt="Screenshot 2025-03-19 at 6 41 16 p m" src="https://github.com/user-attachments/assets/8c93fb7c-1dcd-4e56-a9bc-841c07b68126" />
+
+
 _Were you able to achieve the target model performance?_
+
+With this first attempt we didn't make the target model performance as we obtained a 72.65% of accuracy and the minimum asked was 75%
+
+<img width="757" alt="Screenshot 2025-03-19 at 6 26 06 p m" src="https://github.com/user-attachments/assets/7cd0e913-eee2-426e-af58-9e24eb672b74" />
+
+
+So we will try 2 more attempts in order to try to get a better performance number
+
 
 _What steps did you take in your attempts to increase model performance?_
 
