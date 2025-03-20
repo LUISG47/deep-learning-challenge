@@ -61,15 +61,19 @@ _How many neurons, layers, and activation functions did you select for your neur
 
 In the first attempt the following architecture was followed:
 
-**First Hidden Layer**: 80 neurons.
-**Second Hidden Layer**: 30 neurons.
-**Output Layer**: 1 neuron (for binary classification).
++ **First Hidden Layer**: 80 neurons.
+
++ **Second Hidden Layer**: 30 neurons.
+
++ **Output Layer**: 1 neuron (for binary classification).
 
 On the activation functions we have this:
 
-**Hidden Layers**: Use the **ReLU (Rectified Linear Unit)** activation function
-**Output Layer**: Uses the **Sigmoid** activation function wich is suitable for binary classifications
-**100 epochs** were chosen to allow adequate training time for the network to converge-
++ **Hidden Layers**: Use the **ReLU (Rectified Linear Unit)** activation function
+  
++ **Output Layer**: Uses the **Sigmoid** activation function wich is suitable for binary classifications
+  
++ **100 epochs** were chosen to allow adequate training time for the network to converge-
 
 <img width="1013" alt="Screenshot 2025-03-19 at 6 41 08 p m" src="https://github.com/user-attachments/assets/e5384c10-57db-4b85-a875-1255060db9e6" />
 
